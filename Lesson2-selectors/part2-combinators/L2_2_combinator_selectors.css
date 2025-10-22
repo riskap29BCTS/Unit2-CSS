@@ -90,7 +90,7 @@ aside.sidebar > li{
    - Give it a bold, slightly larger style
    Hint: Combine multiple selector types
 */
-.main-article>.article-content>+p{
+.main-article>.article-content>p{
    color:#fff
 }
 

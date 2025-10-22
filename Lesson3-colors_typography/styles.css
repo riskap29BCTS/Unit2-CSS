@@ -1,0 +1,39 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+/* Movie Review CSS Starter File */
+/* We'll add styles here step by step! */
+body{
+    background-color: #f5f5f5;
+    color: #333333;
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 16px;
+    line-height: 1.67;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+header h1{
+     font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+} 
+.tagline{
+    font-size: 20px;
+    font-style: italic;
+    color: #ecf0f1;
+    margin: 0;
+}
+/* Step 1: Colors - We'll add these together! */
+
+
+/* Step 2: Typography - Font families coming soon! */
+
+
+/* Step 3: Text styling - Sizes and spacing! */
+
