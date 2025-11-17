@@ -1,0 +1,166 @@
+/* General CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.main-header {
+    background-color: #5e39a3;
+    padding: 20px 0;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: color 1s ease;
+}
+
+.main-nav a:hover {
+    color: #490000;
+    text-decoration: underline;
+}
+
+.main-nav a:focus {
+    outline: 2px solid black;
+    outline-offset: 4px;
+}
+
+/* Hero Page */
+.hero {
+    background-color: #209999;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-title {
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px) scale(1.1);
+    opacity: 0.9;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.btn-primary {
+    background-color: #e0aa6b;
+    color: #FFFFFFFF;
+}
+
+/* features */
+.container .feature-card {
+    background-color: #209999;
+    padding: 70 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border: gray solid 5px;
+    min-width: 280px;
+
+}
+
+.feature-icon {
+    font-size: 60px;
+    transition: 0.3s ease;
+    width: 100px;
+    height: 100px;
+    background-color: #e8f4f8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    ;
+
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    gap: 20px
+}
+
+.feature-card:hover .feature-icon {
+    transform: scale(1.05) rotate(5deg)
+}
+
+section.features {
+    padding: 80px 0;
+    background-color: #333;
+    color: white;
+
+}
+
+h2.section-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.section-subtitle {
+    text-align: center;
+}
