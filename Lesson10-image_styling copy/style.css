@@ -258,3 +258,13 @@ h2.section-title {
     border-radius: 25px;
     width: 100%;
 }
+.join-btn{
+    background: #e74c3c ;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
