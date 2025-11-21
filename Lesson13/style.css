@@ -1,0 +1,38 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: colorTransform 4s infinite;
+    position: relative;
+}
+@keyframes example{
+    from{
+        background-color: red;
+    }
+    to{background-color: yellow;}
+}
+
+@keyframes example{
+      0%{background-color: red;}
+   25%{background-color: blue;}
+   50%{background-color: green}
+   75%{background-color: white;}
+   100%{background-color: yellow;}
+
+}
+
+@keyframes moveColor{
+      0%{background-color: red;left:0; top: 0;}
+   25%{background-color: blue; left: 150px; top: 0;}
+   50%{background-color: green; left: 150px; top: 150px;}
+   75%{background-color: black;left: 0; top: 150px;}
+   100%{background-color: yellow;left: 0; top:0}
+}
+
+@keyframes colorTransform{
+      0%{background-color: red;left:0; top: 0;}
+   25%{background-color: blue; left: 150px; top: 0;}
+   50%{background-color: green; left: 150px; top: 150px;}
+   75%{background-color: black;left: 0; top: 150px;}
+   100%{background-color: yellow;left: 0; top:0}
+}
