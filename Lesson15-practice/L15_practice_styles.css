@@ -83,6 +83,9 @@
    background-color: #2d2d44;
    padding: 35px;
    text-align: center;
+   border-radius: 15px;
+   box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+   transition: transform 0.3s ease-in-out;
 }
 
 /* ===========================================
@@ -112,6 +115,16 @@
    font-size:48px;
    margin-bottom: 15px;
 }
+.card-title{
+   color: white;
+   font-size: 22px;
+   margin: 0 0 15px 0;
+}
+.card-desription{
+   color: #cccccc;
+   font-size: 15px;
+   line-height: 1.6;
+}
 
 
 
@@ -132,7 +145,10 @@
 
 /* YOUR CODE FOR TASK 4 HERE: */
 
-
+.service-card:hover{
+   transform: translateY(-10px);
+   box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
 
 
 /* ===========================================
@@ -149,7 +165,17 @@
    =========================================== */
 
 /* YOUR CODE FOR TASK 5 HERE: */
-
+@media(max-width:768px){
+   .section-title{
+      font-size:28px ;
+   }
+   .services-container{
+      flex-direction:column;
+   }
+   .services{
+      padding: 40px 20px;
+   }
+}
 
 
 
